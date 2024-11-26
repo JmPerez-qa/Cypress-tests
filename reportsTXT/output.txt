@@ -1,0 +1,12 @@
+Scenario 1: Automatizacion de ASM para DEVOPS
+  Element 1: "Regresion ASM"
+    Step 1: que se logee correctamente a la pagina de ASM con "AGEP10153" y "Claro.123" (passed)
+    Step 2: al cargar entidad: "10153", vendedor: "23536959" y presionar el boton Siguiente en Compañia Negocio, se despliege la proxima pantalla. (passed)
+    Step 3: Se despliega la pantalla de Cliente Cuenta y cargo los datos del cliente existente "23440792" y seteo datos crediticios. (passed)
+    Step 4: verifico los datos de consulta crediticia. (passed)
+    Step 5: cargo los datos de condicion de iva. (passed)
+    Step 6: cargo los datos de Domicilio. (passed)
+    Step 7: cargo oferta comercial. (passed)
+    Step 8: verifico la grilla con los datos de oferta comercial. (passed)
+    Step 9: edito la grilla de Oferta Comercial y cargo numeros de serie e imei. (passed)
+    Step 10: se guarda la forma de pago y se valida el resumen. (passed)

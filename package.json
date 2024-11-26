@@ -1,0 +1,35 @@
+{
+  "name": "claro-automation",
+  "version": "2.0.0",
+  "description": "This project is for validate all SG VENTAS Project ",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run",
+    "cypress:regression:test": "cypress run",
+    "generate:report:txt": "node ./reportsTXT/detalleTXT.js && node ./reportsTXT/ReporteTXT.js",
+    "generate:report": "node ./cucumber-html-report.js"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "cfotech",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "cypress": "^13.16.0",
+    "cypress-plugin-api": "^2.11.0",
+    "esbuild": "latest",
+    "multiple-cucumber-html-reporter": "latest",
+    "oracledb": "latest"
+  },
+  "@badeball/cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true
+    }
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.13.0"
+  }
+}

@@ -1,0 +1,3 @@
+JLR>	ID TSC/TC		NOMBRE TSC/TC						PASS		FAIL
+JLR>	PACT-6142		"Regresion ASM" - OK 			1		0
+JLR>   Resumen_Regresion	TC PASADOS:1		TC FALLADOS:0		TC TOTALES:1		
